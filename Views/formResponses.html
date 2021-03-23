@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataBase : Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+        <div class="header">
+            <h4 class="text-info">Form Responses from Server</h4>
+        </div>
+  <template id="form">
+    <div class="card  border border-info details">
+        <div class="card-body  ">  
+          <h4 class="card-title fullName">Full Name :</h4>
+          <h6 class="card-subtitle mb-2 text-muted email">Email :</h6>
+          <h6 class="card-subtitle mb-2 text-muted number">Number :</h6>
+          <h6 class="card-subtitle mb-2 text-muted dob">Date of Birth :</h6>
+          <h6 class="card-subtitle mb-2 text-muted age">Age :</h6>
+          <h6 class="card-subtitle mb-2 text-muted gender">Gender :</h6>
+
+          <p class="card-text query">Query := </p>
+        </div>
+      </div>
+    </template>  
+
+
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js" defer></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js" defer></script>
+<script src="../aScript/seeData.js" defer></script>
+</html>

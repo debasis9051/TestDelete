@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+      *{
+        border:none;
+      }
+        .navbar-brand{
+          font-size:30px;
+        }
+        #s1
+        {
+          width:200px;
+          height:40px;
+        }
+       .font-weight-bold{
+            text-align: center;
+            font-family: sans-serif;
+            letter-spacing: 15px;
+
+       }
+       #con{
+        height:450px;
+
+
+
+       }
+      .card{
+        margin-top:20px;
+/*        background-color: red;
+*/        border-radius: 1px solid black;
+        width:400px;
+        padding:10px;
+      }
+      #nw{
+        height:100px;
+
+      }
+     #footer{
+      text-align: center;
+     }
+  </style>
+</head>
+<body>
+        <div class="container-fluid">
+        <nav class="navbar  navbar-expand-sm navbar-fixed-top navbar-dark bg-dark">
+        <ul class="navbar-nav">
+        <li class="navbar-item"><a class="nav-link" href="#">  <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="navbar-item"><a class="nav-link" href="#">  <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="navbar-item"><a class="nav-link" href="#">  <i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        <li class="navbar-item"><a class="nav-link" href="#">  <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search"  class="form-control" id="s1">
+        </form>
+        </ul>
+     
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>
+         Sign up</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Views/formResponses.html"><i class="fa fa-user" aria-hidden="true"></i>
+        User</a></li>
+        </ul>
+    
+        </nav>
+        </div>
+
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
+                <div class="container">
+                   <a href="#" class="navbar-brand">Escape Travels</a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-justify-center ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Enquiry.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
+                </ul>
+                </div>
+                </div>
+            </nav>
+       </div>
+
+       <div class="container-fluid" id="con">
+      <div class="carousel slide" id="myslider" data-ride="carousel" id="con">
+          <div class="carousel-inner" id="con">
+            <div class="carousel-item active" id="con">
+                <img src="b1.jpg" alt="" width="100%" >
+
+            </div>
+            <div class="carousel-item" id="con">
+<!--                 <img src="b2.jpg" alt="" width="100%" >
+ --> 
+                  <img src="mexican-sunflower-field-panorama.jpg" alt="" width="100%" >
+           </div>
+            <div class="carousel-item" id="con">
+                <img src="b3.jpg" alt="" width="100%" >
+            </div>
+        </div>
+
+              <a href="#myslider" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+         <a href="#myslider" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <ul class="carousel-indicators">
+            <li class="active" data-target="#myslider" data-slide-to="0"></li>
+            <li  data-target="#myslider" data-slide-to="1"></li>
+            <li  data-target="#myslider" data-slide-to="2"></li>
+        </ul>
+        </div>
+       </div>  <!-- end slider -->
+ <div class="container-fluid">
+<div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="agra.jpg" alt="Card image cap">
+  <div class="card-body">
+    <center><h3 class="card-title">Agra</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="agra.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="anda.jpg" alt="Card image cap">
+  <div class="card-body">
+        <center><h3 class="card-title">Anadaman</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="andaman.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="jai.jpg" alt="Card image cap" height="250px">
+  <div class="card-body">
+        <center><h3 class="card-title">Jaipur</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="jaipur.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+    </div> 
+    </div>  
+    <div class="container-fluid">
+<div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="goa.jpg" alt="Card image cap">
+  <div class="card-body">
+     <center><h3 class="card-title">Goa</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="goa.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="dar.jpg" alt="Card image cap">
+  <div class="card-body">
+    <center><h3 class="card-title">Darjeeling</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="darjeeling.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="ladakh.jpg" alt="Card image cap">
+  <div class="card-body">
+     <center><h3 class="card-title">Ladakh</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="ladakh.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+    </div> 
+    </div> 
+    <div class="container-fluid">
+<div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="kazi.jpg" alt="Card image cap">
+  <div class="card-body">
+   <center><h3 class="card-title">Kaziranga</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="kaziranga.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="manali.jpg" alt="Card image cap">
+  <div class="card-body">
+   <center><h3 class="card-title">Manali</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="manali.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+  <img class="card-img-top" src="corg.jpg" alt="Card image cap">
+  <div class="card-body">
+    <center><h3 class="card-title">Corg</h3></center>
+    <center><h4 class="card-text">3 Nights $ days Package <br> Rs. 11,999/-</h4></center><br>
+    <center><a href="corg.html" class="btn btn-info">Read More</a></center>
+  </div>
+</div>
+      </div>
+    </div> 
+    </div> 
+              
+   <div class="container-fluid">
+     <p id="footer">Copyright@2021-22</p>
+   </div>
+</body>
+</html>
